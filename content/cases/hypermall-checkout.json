@@ -1,0 +1,19 @@
+{
+  "title": "HyperMall Checkout 2.0",
+  "slug": "hypermall-checkout",
+  "cover": "/assets/cases/hypermall/cover.webp",
+  "role": ["Product", "Frontend"],
+  "context": "Крупный ретейлер страдал от высоких отказов на финальных шагах корзины и отсутствия персонализации предложений.",
+  "contribution": "Провел пользовательские интервью, выстроил сегментацию, сформировал hypotheses backlog и руководил разработкой нового checkout на Vue/Nuxt с микросервисной интеграцией.",
+  "goals": ["Сократить отказы на этапе оплаты", "Внедрить персонализированные upsell-блоки", "Подготовить платформу к росту SKU"],
+  "process": ["Аналитика", "Прототип", "Разработка", "Эксперименты"],
+  "results": [
+    {"label": "Конверсия", "value": "+18%"},
+    {"label": "NPS", "value": "+12"}
+  ],
+  "stack": ["Vue", "Nuxt", "Node.js", "Kubernetes"],
+  "gallery": [
+    "/assets/cases/hypermall/s1.webp",
+    "/assets/cases/hypermall/s2.webp"
+  ]
+}

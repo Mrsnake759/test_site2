@@ -1,0 +1,13 @@
+{
+  "name": "Artem Sadomtsev",
+  "role": "IT Project Manager / Frontend Developer",
+  "location": "Россия",
+  "summary": "Управляю цифровыми продуктами от discovery до роста метрик. Комбинирую экспертизу менеджмента, аналитики и фронтенда, чтобы запускать решения, которые влияют на бизнес.",
+  "skills": ["Vue", "TypeScript", "PM", "Analytics", "SEO Basics"],
+  "contacts": {
+    "email": "artem.sadomtsev1@mail.ru",
+    "telegram": "https://t.me/username",
+    "linkedin": "https://linkedin.com/in/artem-sadomtsev",
+    "cvUrl": "/assets/cv/Artem_Sadomtsev_CV.pdf"
+  }
+}

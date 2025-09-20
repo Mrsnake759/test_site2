@@ -1,0 +1,19 @@
+{
+  "title": "Orbita Analytics Dashboard",
+  "slug": "orbita-analytics",
+  "cover": "/assets/cases/orbita/cover.webp",
+  "role": ["PM", "Analytics"],
+  "context": "Продуктовым командам SaaS-платформы требовалась сквозная аналитика и единый центр контроля за ключевыми метриками.",
+  "contribution": "Собрал требования с 6 команд, описал data-contracts, курировал разработку data pipeline и интерфейсов, внедрил роли и разграничение доступа.",
+  "goals": ["Дать real-time доступ к метрикам", "Упростить сегментацию пользователей", "Снизить time-to-insight"],
+  "process": ["Workshops", "Data Design", "Development", "Enablement"],
+  "results": [
+    {"label": "Активация", "value": "+22%"},
+    {"label": "Retention", "value": "+15%"}
+  ],
+  "stack": ["Vue", "TypeScript", "Go", "ClickHouse"],
+  "gallery": [
+    "/assets/cases/orbita/s1.webp",
+    "/assets/cases/orbita/s2.webp"
+  ]
+}

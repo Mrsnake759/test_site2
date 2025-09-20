@@ -1,0 +1,11 @@
+node_modules
+dist
+*.log
+.idea
+.DS_Store
+coverage
+public/assets/cases
+public/assets/gallery
+public/assets/cv
+public/assets/images
+public/assets/fonts
