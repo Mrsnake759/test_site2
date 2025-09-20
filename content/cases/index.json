@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "aquarius-portal",
+    "title": "Aquarius Partner Portal",
+    "role": ["PM", "Frontend"],
+    "domain": ["B2B", "Portal"],
+    "stack": ["Vue", "Yii2", "Vite"],
+    "summary": "Запустили партнерский портал для дилеров с каталогом, воронкой заявок и аналитикой по продажам.",
+    "cover": "/assets/cases/aquarius/cover.webp",
+    "year": 2025,
+    "metrics": {"leads": "+34%", "speed": "-28% TTFB"}
+  },
+  {
+    "slug": "hypermall-checkout",
+    "title": "HyperMall Checkout 2.0",
+    "role": ["Product", "Frontend"],
+    "domain": ["E-commerce", "Retail"],
+    "stack": ["Vue", "Nuxt", "Node.js"],
+    "summary": "Редизайн флоу оформления заказа с персонализацией и модульной архитектурой под рост каталога.",
+    "cover": "/assets/cases/hypermall/cover.webp",
+    "year": 2024,
+    "metrics": {"conversion": "+18%", "nps": "+12"}
+  },
+  {
+    "slug": "orbita-analytics",
+    "title": "Orbita Analytics Dashboard",
+    "role": ["PM", "Analytics"],
+    "domain": ["SaaS", "Analytics"],
+    "stack": ["Vue", "TypeScript", "Go"],
+    "summary": "Построили модульную BI-панель с real-time данными и сегментацией для продуктовых команд.",
+    "cover": "/assets/cases/orbita/cover.webp",
+    "year": 2023,
+    "metrics": {"activation": "+22%", "retention": "+15%"}
+  },
+  {
+    "slug": "nova-academy",
+    "title": "Nova Academy LMS",
+    "role": ["Product", "Delivery"],
+    "domain": ["EdTech", "Platform"],
+    "stack": ["Vue", "Laravel", "GraphQL"],
+    "summary": "Разработали обучающую платформу с прогрессом, наставниками и метриками вовлеченности.",
+    "cover": "/assets/cases/nova/cover.webp",
+    "year": 2022,
+    "metrics": {"activation": "+40%", "dropout": "-18%"}
+  },
+  {
+    "slug": "skylink-app",
+    "title": "Skylink Field App",
+    "role": ["PM", "Mobile"],
+    "domain": ["Field Service", "Logistics"],
+    "stack": ["Vue", "Quasar", "Firebase"],
+    "summary": "Создали мобильное приложение для инженеров с офлайн-режимом и чеклистами работ.",
+    "cover": "/assets/cases/skylink/cover.webp",
+    "year": 2021,
+    "metrics": {"sla": "+12%", "paperwork": "-60%"}
+  }
+]

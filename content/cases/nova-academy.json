@@ -1,0 +1,19 @@
+{
+  "title": "Nova Academy LMS",
+  "slug": "nova-academy",
+  "cover": "/assets/cases/nova/cover.webp",
+  "role": ["Product", "Delivery"],
+  "context": "Компания запустила корпоративную академию и искала способ объединить наставников, курсы и аналитику вовлеченности.",
+  "contribution": "Организовал discovery, разработал CJM для студентов и наставников, спланировал MVP и управлял поставкой функциональности с двухнедельными релизами.",
+  "goals": ["Запустить онлайн-академию за 3 месяца", "Отслеживать вовлеченность и прогресс", "Обеспечить гибкое управление контентом"],
+  "process": ["Discovery", "Design Sprint", "Development", "Growth"],
+  "results": [
+    {"label": "Активация", "value": "+40%"},
+    {"label": "Отток", "value": "-18%"}
+  ],
+  "stack": ["Vue", "Laravel", "GraphQL", "PostgreSQL"],
+  "gallery": [
+    "/assets/cases/nova/s1.webp",
+    "/assets/cases/nova/s2.webp"
+  ]
+}

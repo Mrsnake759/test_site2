@@ -1,0 +1,20 @@
+{
+  "title": "Aquarius Partner Portal",
+  "slug": "aquarius-portal",
+  "cover": "/assets/cases/aquarius/cover.webp",
+  "role": ["PM", "Frontend"],
+  "context": "B2B-портал для дилеров производителя климатического оборудования требовал полной цифровой трансформации: каталоги, заявки и коммуникация жили в Excel и чатах.",
+  "contribution": "Отвечал за discovery, roadmap и фронтенд-архитектуру. Сформировал требования, собрал дизайн-систему и запустил MVP за 10 недель, а затем масштабировал функциональность.",
+  "goals": ["Собрать единую точку взаимодействия партнеров", "Сократить время обработки заявок", "Повысить прозрачность аналитики"],
+  "process": ["Дискавери", "MVP", "Запуск", "Итерации"],
+  "results": [
+    {"label": "TTFB", "value": "-28%"},
+    {"label": "CR", "value": "+12%"},
+    {"label": "Leads", "value": "+34%"}
+  ],
+  "stack": ["Vue", "Yii2", "Vite"],
+  "gallery": [
+    "/assets/cases/aquarius/s1.webp",
+    "/assets/cases/aquarius/s2.webp"
+  ]
+}
