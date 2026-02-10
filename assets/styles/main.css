@@ -1,0 +1,99 @@
+:root {
+  --alpha-dark: #242527;
+  --alpha-red: #B51700;
+  --alpha-bg: #f6f6f6;
+  --alpha-text: #1f1f1f;
+  --alpha-muted: rgba(36, 37, 39, 0.7);
+  --alpha-line: rgba(36, 37, 39, 0.14);
+  --alpha-white: #ffffff;
+
+  --c-dark: var(--alpha-dark);
+  --c-accent: var(--alpha-red);
+  --c-text: rgba(36, 37, 39, 0.9);
+  --c-muted: var(--alpha-muted);
+  --c-bg: var(--alpha-bg);
+  --c-line: var(--alpha-line);
+
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --shadow: 0 18px 55px rgba(0, 0, 0, 0.06);
+  --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.08);
+  --shadow-lift: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+* { box-sizing: border-box; }
+html, body, #__nuxt { margin: 0; min-height: 100%; }
+
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--c-text);
+  background: linear-gradient(180deg, #ffffff 0%, var(--c-bg) 100%);
+  line-height: 1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+.site-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--c-line) 18%, rgba(181, 23, 0, 0.2) 50%, var(--c-line) 82%, transparent 100%);
+}
+
+.section-muted {
+  background: linear-gradient(180deg, rgba(36, 37, 39, 0.02) 0%, rgba(36, 37, 39, 0.045) 100%);
+  border-block: 1px solid rgba(36, 37, 39, 0.07);
+}
+
+.section-accent {
+  background: linear-gradient(180deg, rgba(181, 23, 0, 0.045) 0%, rgba(181, 23, 0, 0.018) 100%);
+}
+
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--alpha-red);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.section-tag::before {
+  content: '';
+  width: 26px;
+  height: 2px;
+  background: var(--alpha-red);
+  border-radius: 999px;
+}
+
+.placeholder-media {
+  min-height: 220px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(145deg, #d8dce0 0%, #f3f5f7 45%, #d1d7dd 100%);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  display: grid;
+  place-items: center;
+  color: var(--c-muted);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.decor-dots {
+  background-image: radial-gradient(rgba(36, 37, 39, 0.09) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+@media (max-width: 900px) {
+  body { line-height: 1.5; }
+}
