@@ -56,7 +56,7 @@ const links = [
   { label: 'О компании', to: '/about' },
   { label: 'Каталог', to: '/catalog' },
   { label: 'Услуги', to: '/services' },
-  { label: 'Оплата и доставка', to: '/delivery' },
+  { label: 'Оплата и доставка', to: '/delivery-payment' },
   { label: 'Контакты', to: '/contacts' }
 ]
 

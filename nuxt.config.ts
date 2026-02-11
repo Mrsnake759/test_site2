@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     preset: 'static',
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/about', '/catalog', '/services', '/delivery', '/contacts']
+      routes: ['/', '/about', '/catalog', '/services', '/delivery-payment', '/contacts']
     }
   },
   routeRules: {

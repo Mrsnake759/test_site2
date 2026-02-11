@@ -55,36 +55,27 @@ withDefaults(
   background: #cb1d04;
 }
 
-.is-primary:active {
-  background: #9c1400;
-}
+.is-primary:active { background: #9c1400; }
 
 .is-secondary {
-  background: var(--c-dark);
-  color: #fff;
-  box-shadow: 0 12px 24px rgba(36, 37, 39, 0.28);
+  background: rgba(36, 37, 39, 0.04);
+  color: var(--c-dark);
+  border-color: rgba(36, 37, 39, 0.35);
 }
 
 .is-secondary:hover {
-  box-shadow: 0 15px 28px rgba(36, 37, 39, 0.34);
-  background: #1c1d1f;
+  border-color: var(--c-dark);
+  background: rgba(36, 37, 39, 0.09);
 }
 
-.is-secondary:active {
-  background: #121314;
-}
+.is-secondary:active { background: rgba(36, 37, 39, 0.14); }
 
 .is-ghost {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(181, 23, 0, 0.02);
   color: var(--c-accent);
   border-color: var(--c-accent);
 }
 
-.is-ghost:hover {
-  background: rgba(181, 23, 0, 0.08);
-}
-
-.is-ghost:active {
-  background: rgba(181, 23, 0, 0.14);
-}
+.is-ghost:hover { background: rgba(181, 23, 0, 0.09); }
+.is-ghost:active { background: rgba(181, 23, 0, 0.15); }
 </style>
