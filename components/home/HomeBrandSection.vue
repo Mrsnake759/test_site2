@@ -3,7 +3,7 @@
     <div class="section-divider" />
     <div class="layout">
       <div class="visual">
-        <img src="/images/factory.svg" alt="Бренд Альфа">
+        <img src="/images/alpha/brand-factory.svg" alt="Бренд Альфа">
         <div class="stat-badge">
           <p>ПРОИЗВОДСТВО</p>
           <strong>до 1 млн м² / год</strong>
@@ -26,6 +26,8 @@
 </template>
 
 <script setup lang="ts">
+// TODO: replace /public/images/alpha/*.svg with curated Unsplash/Pexels JPG assets when network allows.
+
 const chips = ['Премиальность', 'Ответственность', 'Эстетика', 'Качество', 'Технологичность']
 </script>
 

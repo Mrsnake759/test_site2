@@ -24,8 +24,10 @@
 </template>
 
 <script setup lang="ts">
+// TODO: replace /public/images/alpha/*.svg with curated Unsplash/Pexels JPG assets when network allows.
+
 const slides = [
-  { image: '/images/hero.svg', title: 'Садовая дорожка и мощение' },
+  { image: '/images/alpha/hero-1.svg', title: 'Садовая дорожка и мощение' },
   { image: '/images/texture1.svg', title: 'Фактура премиальной плитки' },
   { image: '/images/texture2.svg', title: 'Городская среда и благоустройство' }
 ]

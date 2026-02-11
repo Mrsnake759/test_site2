@@ -18,9 +18,11 @@
 </template>
 
 <script setup lang="ts">
+// TODO: replace /public/images/alpha/*.svg with curated Unsplash/Pexels JPG assets when network allows.
+
 const items = [
-  { title: 'ПЛИТКА И БРУСЧАТКА', subtitle: 'Коллекции для мощения', image: '/images/hero.svg' },
-  { title: 'БОРДЮРЫ И ОГРАЖДЕНИЯ', subtitle: 'Чёткая геометрия', image: '/images/factory.svg' }
+  { title: 'ПЛИТКА И БРУСЧАТКА', subtitle: 'Коллекции для мощения', image: '/images/alpha/catalog-tiles.svg' },
+  { title: 'БОРДЮРЫ И ОГРАЖДЕНИЯ', subtitle: 'Чёткая геометрия', image: '/images/alpha/catalog-curbs.svg' }
 ]
 </script>
 

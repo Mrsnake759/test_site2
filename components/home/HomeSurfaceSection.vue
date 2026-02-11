@@ -14,10 +14,12 @@
 </template>
 
 <script setup lang="ts">
+// TODO: replace /public/images/alpha/*.svg with curated Unsplash/Pexels JPG assets when network allows.
+
 const items = [
-  { title: 'ColorMix', text: 'Мягкие переходы оттенков для выразительной среды.', image: '/images/texture1.svg' },
-  { title: 'Отмыв', text: 'Натуральная фактура поверхности с архитектурным характером.', image: '/images/texture2.svg' },
-  { title: 'Заглаживание', text: 'Ровная эстетика и аккуратная геометрия покрытия.', image: '/images/hero.svg' }
+  { title: 'ColorMix', text: 'Мягкие переходы оттенков для выразительной среды.', image: '/images/alpha/surface-colormix.svg' },
+  { title: 'Отмыв', text: 'Натуральная фактура поверхности с архитектурным характером.', image: '/images/alpha/surface-wash.svg' },
+  { title: 'Заглаживание', text: 'Ровная эстетика и аккуратная геометрия покрытия.', image: '/images/alpha/surface-smooth.svg' }
 ]
 </script>
 
