@@ -30,7 +30,7 @@
         <UiCard>
           <h2>Режим работы</h2>
           <p class="worktime">Понедельник — пятница<br>09:00 – 18:00 (по местному времени)</p>
-          <UiButton to="/#lead" variant="ghost">Запросить прайс</UiButton>
+          <UiButton to="/#contact-actions" variant="ghost">Запросить прайс</UiButton>
         </UiCard>
       </div>
     </UiSection>

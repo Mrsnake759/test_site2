@@ -20,7 +20,7 @@ const toneClass = computed(() => {
 
 <style scoped>
 .ui-section {
-  padding: clamp(56px, 8vw, 74px) 0;
+  padding: clamp(72px, 9vw, 104px) 0;
   position: relative;
 }
 </style>

@@ -1,25 +1,22 @@
 <template>
   <div>
-    <HeroSection />
-    <ProductionSection />
-    <TechnologySection />
-    <AestheticSection />
-    <AssortmentSection />
-    <AudienceSection />
-    <ReliabilitySection />
-    <LeadSection />
+    <HomeHeroSection />
+    <HomeCatalogSection />
+    <HomeProductsSection />
+    <HomeAdvantagesBand />
+    <HomeAboutPreview />
+    <HomeSurfaceSection />
+    <HomeBrandSection />
+    <HomeContactActions />
   </div>
 </template>
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Альфа — производитель премиальных изделий мощения',
-  description:
-    'Альфа — премиальные решения для благоустройства: тротуарная плитка, брусчатка и элементы мощения для частных и крупных проектов.',
-  ogTitle: 'Альфа — производитель премиальных изделий мощения',
-  ogDescription:
-    'Индустриальная база, современные технологии и премиальная эстетика решений мощения для частных и общественных пространств.',
-  ogType: 'website',
-  ogUrl: 'https://example.com/'
+  title: 'Главная',
+  description: 'Альфа — премиальные изделия мощения: плитка, брусчатка, бордюры и решения для проектов благоустройства.',
+  ogTitle: 'Альфа — премиальное мощение',
+  ogDescription: 'Каталог решений и производство премиальных изделий мощения.',
+  ogType: 'website'
 })
 </script>

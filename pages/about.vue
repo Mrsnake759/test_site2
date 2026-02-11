@@ -1,13 +1,22 @@
 <template>
-  <ComingSoonPage title="О компании" />
+  <div>
+    <AboutHeroSection />
+    <AboutProductionSection />
+    <AboutTechnologySection />
+    <AboutAestheticSection />
+    <AboutAssortmentSection />
+    <AboutAudienceSection />
+    <AboutReliabilitySection />
+    <AboutLeadSection />
+  </div>
 </template>
 
 <script setup lang="ts">
 useSeoMeta({
   title: 'О компании',
-  description: 'Раздел о компании Альфа. Скоро.',
+  description: 'Альфа — индустриальная база, современные технологии и премиальная эстетика изделий мощения.',
   ogTitle: 'О компании — Альфа',
-  ogDescription: 'Раздел находится в разработке.',
+  ogDescription: 'Производственная основа, технологии и подход к качеству бренда Альфа.',
   ogType: 'website'
 })
 </script>
